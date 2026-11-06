@@ -1,36 +1,37 @@
-# Daily Progress Log
+1. Flow Matching Foundations
 
-## 30 September 2026 — Chapter 1: Introduction to Generative AI
+Date: 30 September 2026
 
-### Work Completed
-- Studied the fundamentals of generative AI and its role in generating new data.
-- Explored how generative modelling can be formulated as sampling from a probability distribution.
-- Learned about data distributions, datasets, and the representation of objects such as images and videos as mathematical vectors.
-- Studied conditional generation, where outputs are generated based on a given input or prompt.
-- Reviewed the overall structure of the study material, including flow models, diffusion models, and flow matching.
+- Studied the theoretical foundations of Flow Matching, including conditional and marginal probability paths, vector fields, and the continuity equation.
+- Explored the Conditional Flow Matching (CFM) objective and its role in learning continuous transformations between probability distributions.
+- Studied Gaussian probability paths, conditional velocity fields, and the mathematical principles underlying Flow Matching.
+- Reviewed the relevant theorem and training algorithm to understand how neural networks learn vector fields for generative modelling.
 
-### Key Learning
-Understood the basic principles of generative modelling and how learning a data distribution enables a model to generate new samples.
+Outcome: Established a theoretical foundation for understanding Flow Matching, its training objectives, and its role in continuous generative modelling.
 
-### Next Steps
-Study the mathematical foundations of flow and diffusion models and understand how they transform noise into data.
+2. Research Understanding and Applications
 
----
+Date: 15 October 2026
 
-## 15 October 2026 — Chapter 2: Flow and Diffusion Models
+- Investigated how probability distributions evolve over continuous time and how vector fields describe these transformations.
+- Examined how conditional trajectories simplify the construction of Flow Matching training objectives.
+- Connected the mathematical foundations of Flow Matching to diffusion models and modern generative modelling approaches.
+- Established the background needed to investigate the potential application of generative models to climate data assimilation and climate tipping-point analysis.
 
-### Work Completed
-- Studied the fundamentals of flow models and diffusion models.
-- Explored ordinary differential equations (ODEs) and how vector fields determine the movement of samples over time.
-- Learned how neural networks parameterize vector fields in flow models to transform an initial distribution into a target data distribution.
-- Studied the Euler method and Heun's method for simulating ODEs.
-- Explored stochastic differential equations (SDEs), Brownian motion, and the role of random noise in diffusion models.
-- Reviewed the Euler–Maruyama method for simulating stochastic processes.
-- Studied the Ornstein–Uhlenbeck process to understand the interaction between drift and diffusion.
-- Examined the sampling procedures for flow and diffusion models and the role of the initial distribution and diffusion coefficient.
+Outcome: Developed a conceptual understanding of the relationship between continuous probability transport, generative modelling, and the broader objectives of the UROP research.
 
-### Key Learning
-Understood the fundamental difference between flow models, which follow deterministic trajectories from a randomly selected initial state, and diffusion models, which incorporate additional stochasticity through Brownian motion. Both approaches can be formulated as generative models that aim to transform an initial distribution into a desired data distribution.
+3. Chapter 3: Flow Matching — Section 3.1
 
-### Next Steps
-Study Chapter 3, focusing on flow matching, conditional and marginal probability paths, vector fields, and the training objectives used to learn generative models.
+Date: 15 October 2026
+
+Topic: Conditional and Marginal Probability Paths
+
+- Began studying Section 3.1 of Chapter 3, focusing on conditional and marginal probability paths.
+- Examined how probability paths describe the evolution of probability distributions over time, providing the foundation for Flow Matching.
+- Explored the role of conditional probability paths in defining simpler, tractable training objectives.
+- Studied how conditional probability paths and their associated vector fields contribute to constructing the marginal probability path used in generative modelling.
+- Connected the concepts to the objective of learning continuous transformations between source and target distributions.
+
+Outcome: Initiated the mathematical study of conditional and marginal probability paths, establishing the foundation for understanding the Flow Matching objective and its subsequent derivation.
+
+Next Steps: Continue Chapter 3 by examining the mathematical formulation of probability paths, their associated vector fields, and the derivation of the Flow Matching training objective.
